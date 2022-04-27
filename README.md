@@ -30,12 +30,14 @@ Step 7: Save and run the application.
 ## PROGRAM:
 ```
 /*
+
 Program to print the text “Implicit and Explicit Intents”.
 Developed by: Kumaran.B
 Registeration Number : 212220230026
 */
 ## Implicit Intents
 ## activity_main.xml
+xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -77,6 +79,7 @@ Registeration Number : 212220230026
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ## MainActivity.java
+java
 package com.example.exp2implicit;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -116,6 +119,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 ## Explicit Intents
 ## activity_main.xml
+xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -150,6 +154,7 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintVertical_bias="0.364" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ## MainActivity.java
+
 package com.example.explicit;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -264,17 +269,19 @@ public class MainActivity2 extends AppCompatActivity {
 
 ### Implicit Intent
 
+![Screenshot (97)](https://user-images.githubusercontent.com/75243072/165487478-bfcd1220-874a-4bd4-9d95-ee379e78dcf5.png)
+![g](https://user-images.githubusercontent.com/75243072/165487552-76e063c8-d1d1-4b4b-bab2-3ffed40ac62f.jpg)
+
 
 
 
 
 ### Explicit Intent
+![Screenshot (95)](https://user-images.githubusercontent.com/75243072/165486526-26aa8840-202a-4835-9772-845d8165989c.png)
+![Screenshot (96)](https://user-images.githubusercontent.com/75243072/165486553-7c00275c-345f-45b7-9673-ad0f57f5a082.png)nt
 
 
-![i4](https://user-images.githubusercontent.com/75235789/165368196-537b7bee-d5ce-48f3-9ab0-934e6b779fd8.jpg)
 
-![i5](https://user-images.githubusercontent.com/75235789/165368211-1041dcf0-a6ce-47a3-83a2-bc2ec7346ef0.jpg)
-![i6](https://user-images.githubusercontent.com/75235789/165368232-fe8069a6-4578-4000-b173-ea54f43296b4.jpg)
 
 ## RESULT
 Thus a Simple Android Application to open google page using Implicit Intents and display factorial of the same number using Explicit Intents using Android Studio is developed and executed successfully.
