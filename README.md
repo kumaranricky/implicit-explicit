@@ -37,7 +37,7 @@ Registeration Number : 212220230026
 */
 ## Implicit Intents
 ## activity_main.xml
-xml
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -78,8 +78,9 @@ xml
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 ## MainActivity.java
-java
+```java
 package com.example.exp2implicit;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -116,10 +117,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 ```
-```
+
 ## Explicit Intents
 ## activity_main.xml
-xml
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -153,8 +154,9 @@ xml
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.364" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 ## MainActivity.java
-
+```java
 package com.example.explicit;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
@@ -196,7 +198,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 }
+```
 ## activity_main2.xml
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -239,7 +243,9 @@ public class MainActivity extends AppCompatActivity {
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.901" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 ## MainActivity2.java
+```java
 package com.example.explicit;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
