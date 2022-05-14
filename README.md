@@ -35,6 +35,7 @@ Program to print the text “Implicit and Explicit Intents”.
 Developed by: Kumaran.B
 Registeration Number : 212220230026
 */
+```
 ## Implicit Intents
 ## activity_main.xml
 ```xml
@@ -271,7 +272,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 }
 ```
-## OUTPUT
+## <br/><br/><br/><br/><br/><br/><br/><br/><br/>OUTPUT
 
 ### Implicit Intent
 
